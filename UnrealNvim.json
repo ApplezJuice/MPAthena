@@ -1,0 +1,49 @@
+{
+  "version": "0.0.2",
+  "_comment": "dont forget to escape backslashes in EnginePath",
+  "EngineDir": "E:\\Program Files\\Epic Games\\UE_5.5",
+  "Targets": [
+    {
+      "TargetName": "Athena-Editor",
+      "Configuration": "DebugGame",
+      "withEditor": true,
+      "UbtExtraFlags": "",
+      "PlatformName": "Win64"
+    },
+    {
+      "TargetName": "Athena",
+      "Configuration": "DebugGame",
+      "withEditor": false,
+      "UbtExtraFlags": "",
+      "PlatformName": "Win64"
+    },
+    {
+      "TargetName": "Athena-Editor",
+      "Configuration": "Development",
+      "withEditor": true,
+      "UbtExtraFlags": "",
+      "PlatformName": "Win64"
+    },
+    {
+      "TargetName": "Athena",
+      "Configuration": "Development",
+      "withEditor": false,
+      "UbtExtraFlags": "",
+      "PlatformName": "Win64"
+    },
+    {
+      "TargetName": "Athena-Editor",
+      "Configuration": "Shipping",
+      "withEditor": true,
+      "UbtExtraFlags": "",
+      "PlatformName": "Win64"
+    },
+    {
+      "TargetName": "Athena",
+      "Configuration": "Shipping",
+      "withEditor": false,
+      "UbtExtraFlags": "",
+      "PlatformName": "Win64"
+    }
+  ]
+}
